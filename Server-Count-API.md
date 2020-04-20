@@ -18,8 +18,8 @@ var requestOptions = {
 
 fetch("/api/auth/stats/:botid", requestOptions) // Make sure you include the domain
   .then(response => response.text())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));
+  .then(console.log)
+  .catch(console.error);
 ```
 Python
 ```py
