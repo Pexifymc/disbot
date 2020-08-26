@@ -34,3 +34,14 @@ headers = {
 response = requests.request("POST", url, headers=headers, data = payload)
 print(response.text.encode('utf8'))
 ```
+
+cURL
+```bash
+curl -H "Content-Type: application/json" \
+     -H "Authorization: YOUR_AUTH_TOKEN" \
+     -X POST \
+     -d '{\"server_count\": 1500}' \
+      "/api/auth/stats/:botid"
+
+# Make sure you include the domain and replace the number with the server count
+```
