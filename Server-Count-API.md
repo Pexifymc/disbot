@@ -6,13 +6,13 @@ To start using server counts on a bot, go to your bot edit page, and click the `
 
 NodeJS
 ```js
-var myHeaders = new Headers();
-myHeaders.append("authorization", "YOUR_AUTH_TOKEN");
-myHeaders.append("Content-Type", "application/json");
 
 var requestOptions = {
   method: 'POST',
-  headers: myHeaders,
+  headers: {
+    "authorization": "YOUR_AUTH_TOKEN",
+    "Content-Type": "application/json"
+  },
   body: JSON.stringify({"server_count": 1500}); // Replace this number with the server count
 };
 
