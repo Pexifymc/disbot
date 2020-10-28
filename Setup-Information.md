@@ -38,3 +38,4 @@ npm start
  - All the roles should be below the role of the bot in charge of the botlist.
  - Most of the variables are Discord IDs. [Enable them in settings](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-).
  - The MongoDB URL can be either a local server or a remote one. [Atlas](https://www.mongodb.com/cloud/atlas) provides a free tier with 500mb.
+ - The recaptcha details are for Google's reCaptcha v2 ([admin page](https://www.google.com/recaptcha/admin)). Use the **checkbox** mode.
