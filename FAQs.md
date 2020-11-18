@@ -11,5 +11,5 @@ Also make sure that in your config file, your domain, contains the protocol and 
 
 ## Role issues
 
- - Check that the Role ID is correct. 
+ - Check that the Role ID is correct in the config file. 
  - Make sure the role for the Discord bot managing the list has Administrator and it's at the top of the roles list. 
