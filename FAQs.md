@@ -8,3 +8,8 @@ This is an [express](https://expressjs.com/) server like many others, and to hos
 
 In your Discord [developer settings](https://discord.com/developers) for the application, make sure you only have **one redirect URI** and it is your domain followed by `/api/callback`. Eg, `https://botlist.com/api/callback`.
 Also make sure that in your config file, your domain, contains the protocol and does **NOT** end with a `/`. Eg, `https://botlist.com` and not like these: `https://botlist.com/` `botlist.com`
+
+## Role issues
+
+ - Check that the Role ID is correct. 
+ - Make sure the role for the Discord bot managing the list has Administrator and it's at the top of the roles list. 
