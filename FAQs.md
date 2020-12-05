@@ -9,6 +9,10 @@ This is an [express](https://expressjs.com/) server like many others, and to hos
 In your Discord [developer settings](https://discord.com/developers) for the application, make sure you only have **one redirect URI** and it is your domain followed by `/api/callback`. Eg, `https://botlist.com/api/callback`.
 Also make sure that in your config file, your domain, contains the protocol and does **NOT** end with a `/`. Eg, `https://botlist.com` and not like these: `https://botlist.com/` `botlist.com`
 
+## When will X new feature be added?
+
+I don't actively work on this repository so there is no time estimate for any new feature. However, feel free to make a PR if you have started it and I can review it. Don't open issues asking when something will be added.
+
 ## Role issues
 
  - Check that the Role ID is correct in the config file. 
