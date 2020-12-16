@@ -1,5 +1,5 @@
 # About
-This is an [open-sourced](https://github.com/Sank6/Discord-Bot-List) Discord Bot List, written in NodeJS, with an [Express JS](https://expressjs.com/) web server and a [discord.js](https://discord.js.org/#/) / [Klasa](https://klasa.js.org/) bot. The bots are stored in a MongoDB database, but no user data is stored or saved. Cookies are used to store discord's oauth data. If you find any issues or bugs, or have a suggestion, feel free to open [an issue](https://github.com/Sank6/Discord-Bot-List/issues).  
+This is an [open-sourced](https://github.com/Sank6/Discord-Bot-List) Discord Bot List, written in NodeJS, with an [Express JS](https://expressjs.com/) web server and a [discord.js](https://discord.js.org/#/) / [Klasa](https://klasa.js.org/) bot. The bots are stored in a MongoDB database. Cookies are used to store discord's oauth data. If you find any issues or bugs, or have a suggestion, feel free to open [an issue](https://github.com/Sank6/Discord-Bot-List/issues).  
 Some of the icons used in this website are from [Icons8](https://icons8.com/).
 
 
