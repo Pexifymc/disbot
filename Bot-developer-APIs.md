@@ -4,10 +4,10 @@ To get your authorisation token, go to your bot edit page, and use the authorisa
 
 # Sending requests
 
-| API Endpoint  | Function |
-| ------------- | ------------- |
-| `/api/auth/liked/:botid`  | Get a list of users that have liked this bot within the last 12 hours |
-| `/api/auth/stats/:botid`  | Post server count  |
+| API Endpoint              | Method | Function                                                              |
+| :------------------------ | :----: | :-------------------------------------------------------------------- |
+| `/api/auth/liked/:botid`  | GET    | Get a list of users that have liked this bot within the last 12 hours |
+| `/api/auth/stats/:botid`  | POST   | Post server count                                                     |
 
 <sub>(Make sure you include the domain in the url)</sub>
 
@@ -16,7 +16,7 @@ Here are some language specific examples:
 ## NodeJS
 ```js
 var requestOptions = {
-  method: 'POST',
+  method: 'GET/POST', // Choose the appropriate method
   headers: {
     "authorization": "YOUR_AUTH_TOKEN",
     "Content-Type": "application/json"
@@ -37,7 +37,7 @@ headers = {
   'Content-Type': 'application/json'
 }
 
-response = requests.request("POST", URL, headers=headers, data = payload) # Check the table above for url
+response = requests.request("GET/POST", URL, headers=headers, data = payload) # Check the table above for url and choose the appropriate method
 print(response.text.encode('utf8'))
 ```
 
@@ -45,9 +45,10 @@ cURL
 ```bash
 curl -H "Content-Type: application/json" \
      -H "Authorization: YOUR_AUTH_TOKEN" \
-     -X POST \
+     -X GET/POST \
      -d "{\"server_count\": 1500}" \
       "URL"
 
 # Check the table above for url and replace the number with the server count
+# Also, choose the appropriate method
 ```
