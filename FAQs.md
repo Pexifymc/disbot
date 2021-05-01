@@ -1,5 +1,9 @@
 I'll add more to these soon. If you have other issues not mentioned here or suggestions, [ask away](https://github.com/Sank6/Discord-Bot-List/issues)
 
+## Why are all bots shown as offline?
+
+To get presence information about other bots, the moderator bot needs to have **presence intents** enabled. ![](https://i.postimg.cc/qRLx062b/image.png)
+
 ## How can I host this?
 
 This is an [express](https://expressjs.com/) server like many others, and to host it, you'll need to install and run the file on a VPS (virtual private server) and use a DNS server, to point an A-Name record of your VPS's IP address to your domain. This isn't designed to be hosted on [glitch's](https://glitch.com/) free tier. Read the [setup guide](https://github.com/Sank6/Discord-Bot-List/wiki/Setup-Information) for more information.
