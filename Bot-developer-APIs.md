@@ -41,7 +41,7 @@ response = requests.request("GET/POST", URL, headers=headers, data = payload) # 
 print(response.text.encode('utf8'))
 ```
 
-cURL
+## cURL
 ```bash
 curl -H "Content-Type: application/json" \
      -H "Authorization: YOUR_AUTH_TOKEN" \
